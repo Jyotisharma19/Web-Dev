@@ -1,0 +1,23 @@
+# Make sure you are on the master branch
+git checkout master
+
+# Pull the latest changes from the remote
+git pull origin master
+
+# Create Java branch and switch to it
+git checkout -b Java
+
+# Push the Java branch to remote
+git push origin Java
+
+# Switch back to master branch
+git checkout master
+
+# Create JavaScript branch and switch to it
+git checkout -b JavaScript
+
+# Push the JavaScript branch to remote
+git push origin JavaScript
+
+# Switch back to master
+git checkout master
